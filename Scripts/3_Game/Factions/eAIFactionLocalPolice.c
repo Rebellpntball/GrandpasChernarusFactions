@@ -15,6 +15,7 @@ class eAIFactionLocalPolice : eAIFaction
 		if (other.IsInherited(eAIFactionChernoDefense)) return true;
 		if (other.IsInherited(eAIFactionMedics)) return true;
 		if (other.IsInherited(eAIFactionFreeTraders)) return true;
+		if (other.IsInherited(eAIFactionTisyResearch)) return true;
 		if (other.IsInherited(eAIFactionCivilian)) return true;
 		if (other.IsInherited(eAIFactionPassive)) return true;
 		if (other.IsInherited(eAIFactionGuards)) return true;

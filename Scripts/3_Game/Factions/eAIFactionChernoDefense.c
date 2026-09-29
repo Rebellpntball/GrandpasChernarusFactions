@@ -14,6 +14,8 @@ class eAIFactionChernoDefense : eAIFaction
 		if (other.IsInherited(eAIFactionFreshDayzMilitia)) return true;
 		if (other.IsInherited(eAIFactionMedics)) return true;
 		if (other.IsInherited(eAIFactionFreeTraders)) return true;
+		if (other.IsInherited(eAIFactionTisyResearch)) return true;
+		if (other.IsInherited(eAIFactionLocalPolice)) return true;
 		if (other.IsInherited(eAIFactionCivilian)) return true;
 		if (other.IsInherited(eAIFactionPassive)) return true;
 		if (other.IsInherited(eAIFactionGuards)) return true;
